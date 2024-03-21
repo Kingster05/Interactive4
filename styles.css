@@ -100,7 +100,7 @@
       .one {
         margin-right: 10px;
       }
-
+      /*Small Edits*/
       .one,
       .two {
         flex: 1 2 auto;
