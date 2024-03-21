@@ -1,0 +1,121 @@
+
+@media screen and (max-width: 640px) {
+    body {
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+      font-family: 'corbel';
+      color: white;
+      font-weight: bold;
+    }
+
+    header,
+    nav,
+    footer {
+      height: 30px;
+      line-height: 30px;
+      background-color: blue;
+      border: black solid;
+    }
+
+    nav,
+    footer {
+      margin-top: 10px;
+    }
+
+    main {
+      margin-top: 10px;
+      height: 50vh;
+      line-height: 50vh;
+      background-color: blue;
+      border: black solid;
+    }
+
+    .one,
+    .two,
+    .three {
+      display: flex;
+      flex-direction: column;
+      background-color: blue;
+      margin-top: 10px;
+      height: 10vh;
+      line-height: 10vh;
+      border: black solid;
+    }
+  }
+
+  @media screen and (min-width: 640px) {
+    body {
+      height: 100vh;
+      font-family: 'corbel';
+      font-size: large;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+    }
+
+    nav,
+    footer,
+    header {
+      height: 40px;
+      line-height: 40px;
+      background-color: blueviolet;
+      margin-bottom: 10px;
+      border: black solid;
+    }
+
+    .container {
+      margin-bottom: 10px;
+      display: flex;
+      height: 80vh;
+      line-height: 80vh;
+
+      main {
+        flex: 0 0 70vw;
+        background-color: blueviolet;
+        border: black solid;
+      }
+
+      aside {
+        display: flex;
+        margin-left: 10px;
+        flex-wrap: wrap;
+        width: 100vw;
+      }
+
+      article {
+        height: 200px;
+        background-color: blue;
+        border: black solid;
+      }
+
+      .one,
+      .two,
+      .three {
+        background-color: blueviolet;
+        width: 10vw;
+
+      }
+
+      .one {
+        margin-right: 10px;
+      }
+
+      .one,
+      .two {
+        flex: 1 2 auto;
+        height: 30vh;
+        line-height: 30vh;
+        align-content: space-between
+      }
+
+      .three {
+        flex: 1 2 auto;
+        height: 48vh;
+        line-height: 49vh;
+        margin-top: 4px;
+        
+      }
+    }
+  }
+
